@@ -1,6 +1,6 @@
 # portfolio-v2
 
-Personal website, you can visit it at [www.ashifur.com](https://ashifur57.github.io/Ashifur.github.io/).  
+Personal website, you can visit it at [www.ashifur.com](https://ashifur57.github.io/ashifur/).  
 
 It's just static JS/CSS, hosted for free using Github Pages.
 
