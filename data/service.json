@@ -1,0 +1,34 @@
+[
+  {
+    "id": "svc01",
+    "role": "Lecturer",
+    "organization": "Bangladesh University of Business and Technology (BUBT)",
+    "location": "Dhaka, Bangladesh",
+    "startDate": "2025-01",
+    "endDate": "",
+    "current": true,
+    "description": [
+      "Designed lesson plans and developed teaching materials as the course instructor.",
+      "Supervised students in the classroom, hallways, and cafeteria.",
+      "Graded assignments, tests, and papers according to teacher instructions.",
+      "Taught courses: Structured Programming Language (Theory & Lab), Data Mining (Theory & Lab), Neural Networks (Theory & Lab), and Internet of Things (Theory & Lab)."
+    ],
+    "visible": true
+  },
+  {
+    "id": "svc02",
+    "role": "Research Assistant",
+    "organization": "Independent University, Bangladesh",
+    "location": "Dhaka, Bangladesh",
+    "startDate": "2022-09",
+    "endDate": "2024-07",
+    "current": false,
+    "description": [
+      "Conducted primary and secondary research to identify relevant information for project development.",
+      "Gathered data from various sources, including online databases and libraries.",
+      "Prepared comprehensive reports summarizing research findings.",
+      "Published 4 journals and 2 conference papers."
+    ],
+    "visible": true
+  }
+]

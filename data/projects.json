@@ -1,0 +1,111 @@
+[
+  {
+    "id": "proj001",
+    "title": "Multihead Lightweight Attention UNet for Medical Image Classification and Segmentation",
+    "description": "Ongoing research on a lightweight multihead attention-based U-Net architecture for medical image classification and segmentation, aimed at improving accuracy while reducing computational overhead for deployment in resource-constrained clinical settings.",
+    "status": "running",
+    "startDate": "2026",
+    "endDate": "",
+    "collaborators": [
+      { "name": "MM Mahbubul Syeed" }
+    ],
+    "funding": "",
+    "links": {
+      "paper": "",
+      "code": "",
+      "demo": "",
+      "website": "",
+      "video": ""
+    },
+    "thumbnail": "",
+    "tags": ["Attention U-Net", "Medical Imaging", "Deep Learning", "Segmentation", "Classification"],
+    "publicationIds": [],
+    "featured": true,
+    "visible": true
+  },
+  {
+    "id": "proj002",
+    "title": "Deepfake Video Detection Using Deep Learning",
+    "description": "A multi-year research line on detecting AI-generated and manipulated video content. Spans a systematic survey of deepfake creation/detection methods, a CNN-based approach for short and low-resolution deepfake clips, and a hybrid deep learning architecture for identifying fake visual evidence in judicial/legal settings. Originated from undergraduate thesis work on deepfake detection using CNN and RCNN.",
+    "status": "completed",
+    "startDate": "2021",
+    "endDate": "2024",
+    "collaborators": [
+      { "name": "M. R. Karim" },
+      { "name": "M. A. Rahman" },
+      { "name": "P. Chowdhury" },
+      { "name": "A. Hossain" },
+      { "name": "R. Islam" }
+    ],
+    "funding": "",
+    "links": {
+      "paper": "https://doi.org/10.1109/R10-HTC54060.2022.9929719",
+      "code": "",
+      "demo": "",
+      "website": "",
+      "video": ""
+    },
+    "thumbnail": "",
+    "tags": ["Deepfake Detection", "CNN", "RCNN", "Computer Vision", "Digital Forensics"],
+    "publicationIds": ["pub_deepfake_survey_2022", "pub_deepfake_shortlowres_2022", "pub_deepjurist_2024"],
+    "featured": true,
+    "visible": true
+  },
+  {
+    "id": "proj003",
+    "title": "Water Quality Prediction and Monitoring Using AI",
+    "description": "Research on AI-driven surface water quality assessment, combining a large-scale historical dataset (1940–2023) with ensemble machine learning and attention-based LSTM models to forecast the Water Quality Index (WQI) while minimizing eclipsing and ambiguity issues in classical WQI methods.",
+    "status": "completed",
+    "startDate": "2024",
+    "endDate": "2025",
+    "collaborators": [
+      { "name": "M. M. Syeed" },
+      { "name": "M. R. Karim" },
+      { "name": "K. Fatema" },
+      { "name": "R. H. Khan" },
+      { "name": "M. F. Uddin" }
+    ],
+    "funding": "",
+    "links": {
+      "paper": "https://doi.org/10.1007/s13201-025-02450-0",
+      "code": "",
+      "demo": "",
+      "website": "",
+      "video": ""
+    },
+    "thumbnail": "",
+    "tags": ["Water Quality Index", "Ensemble ML", "LSTM", "Attention Mechanism", "Environmental AI"],
+    "publicationIds": ["pub_wqi_ensemble_2025", "pub_wqi_lstm_2025", "pub_wq_dataset_2025"],
+    "featured": true,
+    "visible": true
+  },
+  {
+    "id": "proj004",
+    "title": "Medical Image Analysis with Explainable AI",
+    "description": "A body of work applying deep learning and explainable AI (X-AI) to medical imaging tasks, including brain tumor segmentation (EfficientNet + U-Net), X-AI-driven brain cancer detection and localization, vision transformer-based breast cancer categorization from histopathology images, and a broader review of computer vision algorithms in healthcare.",
+    "status": "completed",
+    "startDate": "2023",
+    "endDate": "2025",
+    "collaborators": [
+      { "name": "M. R. Karim" },
+      { "name": "U. F. Rahim" },
+      { "name": "P. Chowdhury" },
+      { "name": "A. Hossain" },
+      { "name": "M. M. Islam" },
+      { "name": "M. S. Hossain" }
+    ],
+    "funding": "",
+    "links": {
+      "paper": "https://doi.org/10.1109/NCIM59001.2023.10212818",
+      "code": "",
+      "demo": "",
+      "website": "",
+      "video": ""
+    },
+    "thumbnail": "",
+    "tags": ["Medical Imaging", "Explainable AI", "Brain Tumor Segmentation", "Vision Transformer", "Healthcare AI"],
+    "publicationIds": ["pub_braintumor_2024", "pub_neuroxai_2023", "pub_vit_breastcancer_2025", "pub_cv_healthcare_review_2025"],
+    "featured": true,
+    "visible": true
+  }
+]

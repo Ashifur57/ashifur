@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /asr/
+
+Sitemap: https://ashifur57.github.io/ashifur/sitemap.xml

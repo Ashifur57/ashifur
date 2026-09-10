@@ -1,0 +1,47 @@
+[
+  {
+    "id": "talk004",
+    "title": "Mastering Prompt Engineering Techniques",
+    "event": "BUBT Artificial Intelligence Conquest (BAIC) 2025",
+    "eventUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7400561117988737025/",
+    "date": "2025-11-28",
+    "location": "Bangladesh University of Business and Technology (BUBT), Dhaka, Bangladesh",
+    "type": "workshop",
+    "abstract": "A hands-on workshop on practical prompt engineering strategies, real-world applications, and interactive demonstrations aimed at helping participants enhance reasoning and improve AI-driven workflows. This edition of BAIC brought together 24 junior participants, 83 senior participants, 43 teams, and representatives from 30 institutions.",
+    "links": {
+      "slides": "https://doi.org/10.13140/RG.2.2.27356.76163",
+      "video": ""
+    },
+    "visible": true
+  },
+  {
+    "id": "talk005",
+    "title": "A Deep Dive into Transformers for Computer Vision",
+    "event": "Artificial Intelligence Community, Bangladesh University of Business and Technology (BUBT)",
+    "eventUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7331828292875943936/",
+    "date": "2025-05-24",
+    "location": "Google Meet (Online)",
+    "type": "invited talk",
+    "abstract": "A session exploring how Transformer-based architectures such as ViT (Vision Transformer) are reshaping computer vision, from image classification to object detection and beyond. The talk was designed for ML enthusiasts, students, researchers, and professionals eager to stay ahead in the fast-evolving field of AI.",
+    "links": {
+      "slides": "https://doi.org/10.13140/RG.2.2.13934.98883",
+      "video": ""
+    },
+    "visible": true
+  },
+  {
+    "id": "talk006",
+    "title": "Get Started Deep Learning with TensorFlow",
+    "event": "Artificial Intelligence Community, Bangladesh University of Business and Technology (BUBT)",
+    "eventUrl": "",
+    "date": "",
+    "location": "Bangladesh University of Business and Technology (BUBT), Dhaka, Bangladesh",
+    "type": "workshop",
+    "abstract": "A session covering the fundamentals of deep learning and its practical applications using TensorFlow, including dataset reading and preprocessing (loading, normalization, augmentation), model building and training (CNN design, activation functions, optimization, fine-tuning), and model evaluation and performance metrics (accuracy, precision, recall, loss functions, and techniques to avoid overfitting).",
+    "links": {
+      "slides": "",
+      "video": ""
+    },
+    "visible": true
+  }
+]

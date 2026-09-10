@@ -1,0 +1,78 @@
+{
+  "name": "Ashifur Rahman",
+  "nickname": "Ashifur",
+  "title": "Lecturer, Researcher",
+  "subtitle": "BSc CSE (BUBT), MSc CSE (DUET, Running)",
+  "position": "Lecturer",
+  "institution": "Bangladesh University of Business and Technology (BUBT)",
+  "department": "Department of Computer Science and Engineering",
+  "institutionUrl": "https://bubt.edu.bd/department/department-of-computer-science-engineering/faculty/profile/ASR",
+  "institutionLogo": "",
+  "bio": "<p>I am a Lecturer and researcher in Computer Science and Engineering, interested in deep learning, computer vision, and applied AI for healthcare, environmental, and multimedia forensics problems.</p><p>My research spans semantic segmentation, medical image analysis, deepfake detection, and water quality prediction using machine learning. I completed my <b>B.Sc.</b> (2022) in CSE with a major in Artificial Intelligence from <i>Bangladesh University of Business &amp; Technology</i> (BUBT), graduating with a CGPA of 3.97 (Top 1% of class). My undergraduate thesis focused on <i>Deepfake Video Detection Using CNN and RCNN</i>. I am currently pursuing my <b>M.Sc.</b> in CSE at <i>Dhaka University of Engineering &amp; Technology, Gazipur</i> (DUET).</p><p><span style=\"color: var(--text);\">Previously, I worked as a </span><i style=\"color: var(--text);\">Research Assistant</i><span style=\"color: var(--text);\"> at Independent University, Bangladesh, where I contributed to research published across </span><i style=\"color: var(--text);\">4 journals and 2 conference proceedings</i><span style=\"color: var(--text);\">, covering topics including UAV-based aquatic plant classification, medical imaging, and surface water quality prediction.</span></p><p><span style=\"color: var(--text);\">I currently serve as course instructor for Structured Programming Language, Data Mining, Neural Networks, and Internet of Things at BUBT, and enjoy teaching, mentoring, and communicating technical ideas clearly.</span></p>",
+  "email": "ashifurrahman.bubt@gmail.com",
+  "phone": "+8801925221970",
+  "location": "Bangladesh",
+  "profilePhoto": "",
+  "cvUrl": "",
+  "cvVisible": false,
+  "links": {
+    "googleScholar": "https://scholar.google.com/citations?user=5NFzuJIAAAAJ&hl=en",
+    "orcid": "https://orcid.org/0000-0003-4308-8527",
+    "github": "https://github.com/Ashifur57",
+    "linkedin": "https://www.linkedin.com/in/ashifur_rahman",
+    "researchgate": "https://www.researchgate.net/profile/Ashifur-Rahman",
+    "semanticScholar": "",
+    "twitter": "",
+    "facebook": "",
+    "website": "https://ashifur57.github.io/ashifur"
+  },
+  "customLinks": [],
+  "researchInterests": [
+    "Deep Learning",
+    "Computer Vision",
+    "Machine Learning",
+    "Deepfake Detection",
+    "Medical Image Analysis",
+    "Semantic Segmentation",
+    "Water Quality Prediction"
+  ],
+  "skills": {
+    "programming": [
+      "C",
+      "C++",
+      "C#",
+      "Python",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "frameworks": [
+      "TensorFlow",
+      "Keras",
+      "PyTorch",
+      "OpenCV",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn"
+    ],
+    "databases": [
+      "MySQL",
+      "SQLite"
+    ],
+    "tools": [
+      "Google Colab",
+      "Jupyter",
+      "PyCharm",
+      "Anaconda",
+      "AWS",
+      "Docker",
+      "CVAT",
+      "ImageJ",
+      "Roboflow"
+    ]
+  },
+  "visible": true,
+  "affiliations": []
+}

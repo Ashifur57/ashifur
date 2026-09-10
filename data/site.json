@@ -1,0 +1,123 @@
+{
+  "title": "Ashifur Rahman",
+  "tagline": "Lecturer · AI Researcher · Computer Vision & Deep Learning",
+  "description": "Academic portfolio of Ashifur Rahman — Lecturer at Bangladesh University of Business and Technology (BUBT) and researcher in Artificial Intelligence, Computer Vision, Deep Learning, and Explainable AI.",
+  "baseUrl": "https://ashifur57.github.io/ashifur",
+  "author": "Ashifur Rahman",
+  "analytics": {
+    "enabled": true,
+    "googleAnalyticsId": ""
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/",
+      "visible": true
+    },
+    {
+      "label": "Publications",
+      "href": "/publications",
+      "visible": true
+    },
+    {
+      "label": "Projects",
+      "href": "/projects",
+      "visible": true
+    },
+    {
+      "label": "Teaching",
+      "href": "/teaching",
+      "visible": true
+    },
+    {
+      "label": "Talks",
+      "href": "/talks",
+      "visible": false
+    },
+    {
+      "label": "Services",
+      "href": "/awards",
+      "visible": true
+    },
+    {
+      "label": "Gallery",
+      "href": "/gallery",
+      "visible": false
+    },
+    {
+      "label": "CV",
+      "href": "/cv",
+      "visible": true
+    }
+  ],
+  "theme": {
+    "accent": "#7c3aed",
+    "defaultMode": "dark"
+  },
+  "homepage": {
+    "newsCount": 8,
+    "featuredPubsCount": 4,
+    "featuredProjectsCount": 4
+  },
+  "homepageSections": [
+    {
+      "id": "about",
+      "label": "About",
+      "visible": true
+    },
+    {
+      "id": "interests",
+      "label": "Research Interests",
+      "visible": true
+    },
+    {
+      "id": "pubs",
+      "label": "Selected Publications",
+      "visible": true
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "visible": true
+    },
+    {
+      "id": "awards",
+      "label": "Awards & Honors",
+      "visible": true
+    },
+    {
+      "id": "teaching",
+      "label": "Teaching",
+      "visible": true
+    },
+    {
+      "id": "news",
+      "label": "News",
+      "visible": true
+    }
+  ],
+  "footer": {
+    "text": "© 2026 Ashifur Rahman || Credit goes to Jekyll and AcademicPages",
+    "showLastUpdated": true
+  },
+  "announcement": {
+    "visible": false,
+    "text": "",
+    "link": "",
+    "linkText": ""
+  },
+  "contact": {
+    "formMethod": "mailto",
+    "formspreeId": ""
+  },
+  "seo": {
+    "keywords": "artificial intelligence, deep learning, computer vision, machine learning, deepfake detection, explainable AI, medical image analysis, water quality prediction, semantic segmentation, researcher, Ashifur Rahman, BUBT",
+    "ogImage": ""
+  },
+  "contactInfo": {
+    "email": "ashifurrahman.bubt@gmail.com",
+    "researchGate": "https://www.researchgate.net/profile/Ashifur-Rahman?ev=hdr_xprf",
+    "linkedIn": "https://www.linkedin.com/in/ashifur-rahman-b17903206",
+    "website": "https://ashifur57.github.io/ashifur"
+  }
+}

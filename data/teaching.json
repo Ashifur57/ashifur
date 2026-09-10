@@ -1,0 +1,62 @@
+[
+  {
+    "id": "teach01",
+    "course": "Structured Programming Language",
+    "courseCode": "",
+    "institution": "Bangladesh University of Business and Technology (BUBT)",
+    "role": "Course Instructor (Lecturer)",
+    "level": "Undergraduate",
+    "components": [
+      "Theory",
+      "Lab"
+    ],
+    "period": "2025 - Present",
+    "description": "Designed lesson plans and developed teaching materials for the course; supervised and graded student assignments, tests, and papers.",
+    "visible": true
+  },
+  {
+    "id": "teach02",
+    "course": "Data Mining",
+    "courseCode": "",
+    "institution": "Bangladesh University of Business and Technology (BUBT)",
+    "role": "Course Instructor (Lecturer)",
+    "level": "Undergraduate",
+    "components": [
+      "Theory",
+      "Lab"
+    ],
+    "period": "2025 - Present",
+    "description": "Designed lesson plans and developed teaching materials for the course; supervised and graded student assignments, tests, and papers.",
+    "visible": true
+  },
+  {
+    "id": "teach03",
+    "course": "Neural Networks",
+    "courseCode": "",
+    "institution": "Bangladesh University of Business and Technology (BUBT)",
+    "role": "Course Instructor (Lecturer)",
+    "level": "Undergraduate",
+    "components": [
+      "Theory",
+      "Lab"
+    ],
+    "period": "2025 - Present",
+    "description": "Designed lesson plans and developed teaching materials for the course; supervised and graded student assignments, tests, and papers.",
+    "visible": true
+  },
+  {
+    "id": "teach04",
+    "course": "Internet of Things",
+    "courseCode": "",
+    "institution": "Bangladesh University of Business and Technology (BUBT)",
+    "role": "Course Instructor (Lecturer)",
+    "level": "Undergraduate",
+    "components": [
+      "Theory",
+      "Lab"
+    ],
+    "period": "2025 - Present",
+    "description": "Designed lesson plans and developed teaching materials for the course; supervised and graded student assignments, tests, and papers.",
+    "visible": true
+  }
+]

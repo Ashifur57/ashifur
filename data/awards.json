@@ -1,0 +1,38 @@
+[
+  {
+    "id": "award001",
+    "title": "Dean Award (8 times)",
+    "organization": "Bangladesh University of Business & Technology (BUBT)",
+    "organizationUrl": "",
+    "year": "2022",
+    "description": "Awarded the Dean's Award eight times for outstanding academic performance during undergraduate studies.",
+    "amount": "",
+    "showAmount": false,
+    "link": "",
+    "visible": true
+  },
+  {
+    "id": "award002",
+    "title": "Best Paper Presentation Award",
+    "organization": "ICCIT 2024",
+    "organizationUrl": "",
+    "year": "2024",
+    "description": "Received the Best Paper Presentation Award at the 27th International Conference on Computer and Information Technology (ICCIT) 2024.",
+    "amount": "",
+    "showAmount": false,
+    "link": "",
+    "visible": true
+  },
+  {
+    "id": "award003",
+    "title": "Outstanding Research Award",
+    "organization": "BUBT Research Graduate School (BRGS)",
+    "organizationUrl": "",
+    "year": "2026",
+    "description": "Recognized with the Outstanding Research Award by the BUBT Research Graduate School for contributions to research.",
+    "amount": "",
+    "showAmount": false,
+    "link": "",
+    "visible": true
+  }
+]

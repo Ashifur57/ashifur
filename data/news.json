@@ -1,0 +1,46 @@
+[
+  {
+    "id": "mr4nrcn7yltmh",
+    "date": "2026-06-07",
+    "category": "publication",
+    "content": "Published <strong>\"Attention-enhanced multi-task learning for binary segmentation and fine-grained aquatic plant classification in UAV imagery\"</strong> in <strong>Nature Scientific Reports</strong> (Q1).",
+    "link": "https://doi.org/10.1038/s41598-026-51881-5",
+    "linkText": "Read Article",
+    "visible": true
+  },
+  {
+    "id": "news002",
+    "date": "2025-07-10",
+    "content": "Completed field visit to Bangladesh Agricultural University (BAU) for UAV-based aquatic plant data collection.",
+    "link": "",
+    "linkText": "",
+    "category": "research",
+    "visible": true
+  },
+  {
+    "id": "news003",
+    "date": "2025-05-15",
+    "content": "Conducted a robotics workshop at a local cadet college, introducing students to embedded systems and autonomous robots.",
+    "link": "",
+    "linkText": "",
+    "category": "service",
+    "visible": true
+  },
+  {
+    "id": "news004",
+    "date": "2025-03-01",
+    "category": "media",
+    "content": "Research dataset work featured in <strong>The Business Standard</strong>, covering the IUB RIoT Research Center's dataset publication in Nature Scientific Data.",
+    "link": "https://www.tbsnews.net/economy/corporates/iubs-riot-research-center-publishes-datasets-nature-scientific-data-1097656",
+    "linkText": "Read Article",
+    "visible": true
+  },
+  {
+    "id": "news005",
+    "date": "2024-11-20",
+    "content": "Paper accepted in <strong>Nature Scientific Data</strong> (Q1): <strong>\"A comprehensive dataset of surface water quality spanning 1940–2023 for empirical and ML adopted research.\"</strong>",
+    "link": "https://doi.org/10.1038/s41597-025-04715-4",
+    "linkText": "Read Article",
+    "visible": true
+  }
+]

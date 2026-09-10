@@ -1,0 +1,40 @@
+[
+  {
+    "id": "edu001",
+    "degree": "M.Sc.",
+    "field": "Computer Science",
+    "institution": "Dhaka University of Engineering & Technology (DUET), Gazipur",
+    "institutionUrl": "https://duet.ac.bd/",
+    "institutionLogo": "",
+    "startYear": "2025",
+    "endYear": "Running",
+    "yearRange": "2025 – Running",
+    "advisor": "",
+    "advisorUrl": "",
+    "thesisTitle": "",
+    "thesisUrl": "",
+    "gpa": "3.75",
+    "showGpa": true,
+    "description": "Major in Computer Science.",
+    "visible": true
+  },
+  {
+    "id": "edu002",
+    "degree": "B.Sc.",
+    "field": "Computer Science and Engineering",
+    "institution": "Bangladesh University of Business & Technology (BUBT)",
+    "institutionUrl": "",
+    "institutionLogo": "",
+    "startYear": "2018",
+    "endYear": "2022",
+    "yearRange": "2018 – 2022",
+    "advisor": "",
+    "advisorUrl": "",
+    "thesisTitle": "Deepfake Video Detection Using CNN and RCNN",
+    "thesisUrl": "",
+    "gpa": "3.97",
+    "showGpa": true,
+    "description": "Major in Artificial Intelligence. Ranked Top 1% of class.",
+    "visible": true
+  }
+]
