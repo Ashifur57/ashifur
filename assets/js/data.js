@@ -3,7 +3,7 @@ const cache = {};
 export async function load(name) {
   if (cache[name]) return cache[name];
   try {
-    const res = await fetch(`/data/${name}.json`);
+    const res = await fetch(`./data/${name}.json`);
     if (!res.ok) return def(name);
     const data = await res.json();
     cache[name] = data;
@@ -17,7 +17,7 @@ export async function loadAll(...names) {
 
 function def(name) {
   const d = {
-    site: { title: 'JH Rony', navigation: [], theme: { defaultMode: 'auto' }, footer: { text: '' }, homepage: {}, announcement: { visible: false }, analytics: { enabled: false } },
+    site: { title: 'Ashifur Rahman', navigation: [], theme: { defaultMode: 'auto' }, footer: { text: '' }, homepage: {}, announcement: { visible: false }, analytics: { enabled: false } },
     profile: { name: '', bio: '', links: {}, researchInterests: [], skills: {}, visible: true },
     publications: [], projects: [], news: [], teaching: [],
     talks: [], awards: [], service: [], education: [], experience: [], gallery: []
