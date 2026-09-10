@@ -11,42 +11,42 @@
   "navigation": [
     {
       "label": "Home",
-      "href": "/",
+      "href": "/ashifur/",
       "visible": true
     },
     {
       "label": "Publications",
-      "href": "/publications",
+      "href": "/ashifur/publications",
       "visible": true
     },
     {
       "label": "Projects",
-      "href": "/projects",
+      "href": "/ashifur/projects",
       "visible": true
     },
     {
       "label": "Teaching",
-      "href": "/teaching",
+      "href": "/ashifur/teaching",
       "visible": true
     },
     {
       "label": "Talks",
-      "href": "/talks",
+      "href": "/ashifur/talks",
       "visible": false
     },
     {
       "label": "Services",
-      "href": "/awards",
+      "href": "/ashifur/awards",
       "visible": true
     },
     {
       "label": "Gallery",
-      "href": "/gallery",
+      "href": "/ashifur/gallery",
       "visible": false
     },
     {
       "label": "CV",
-      "href": "/cv",
+      "href": "/ashifur/cv",
       "visible": true
     }
   ],
