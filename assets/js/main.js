@@ -1,6 +1,10 @@
 import { initTheme, stored, cycle, icon } from './theme.js';
 import { load, loadAll } from './data.js';
 
+// Single source of truth for the GitHub Pages subpath.
+// Change this if the repo/subpath ever changes.
+const BASE = '/ashifur';
+
 initTheme();
 let _cachedPubs = null;
 
@@ -24,14 +28,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     const nav = (site.navigation || []).filter(n => n.visible);
     const current = stored();
     const items = nav.map(n => {
-      const href = (n.href || '/').replace(/\.html$/, '');
-      const active = path === href || (href !== '/' && path === href);
+      const href = (n.href || BASE + '/').replace(/\.html$/, '');
+      const active = path === href || (href !== BASE + '/' && path === href);
       return `<li><a href="${href}"${active ? ' class="active"' : ''}>${n.label}</a></li>`;
     }).join('');
 
     header.innerHTML = `
       <div class="nav-inner">
-        <a href="/" class="nav-logo">${site.title || 'Portfolio'}</a>
+        <a href="${BASE}/" class="nav-logo">${site.title || 'Portfolio'}</a>
         <ul class="nav-links">${items}</ul>
         <div class="nav-actions">
           <button class="theme-btn" id="theme-btn" title="Toggle theme">${icon(current)}</button>
@@ -168,12 +172,12 @@ async function initHome(site) {
     pubs: () => {
       const items = (pubs || []).filter(p => p.visible !== false && p.featured).slice(0, hp.featuredPubsCount || 4);
       if (!items.length) return '';
-      return `<div class="home-section" id="hp-pubs"><div class="section-header"><h2>Selected Publications</h2><a href="/publications" class="see-all">See all →</a></div><div class="pub-list">${items.map(pubCard).join('')}</div></div>`;
+      return `<div class="home-section" id="hp-pubs"><div class="section-header"><h2>Selected Publications</h2><a href="${BASE}/publications" class="see-all">See all →</a></div><div class="pub-list">${items.map(pubCard).join('')}</div></div>`;
     },
     projects: () => {
       const items = (projects || []).filter(p => p.visible !== false && p.featured).slice(0, hp.featuredProjectsCount || 2);
       if (!items.length) return '';
-      return `<div class="home-section"><div class="section-header"><h2>Projects</h2><a href="/projects" class="see-all">See all →</a></div><div class="project-grid">${items.map(projCard).join('')}</div></div>`;
+      return `<div class="home-section"><div class="section-header"><h2>Projects</h2><a href="${BASE}/projects" class="see-all">See all →</a></div><div class="project-grid">${items.map(projCard).join('')}</div></div>`;
     },
     awards: () => {
       const items = (awards || []).filter(a => a.visible !== false).slice(0, 5);
@@ -187,7 +191,7 @@ async function initHome(site) {
     teaching: () => {
       const items = (teaching || []).filter(t => t.visible !== false).slice(0, 4);
       if (!items.length) return '';
-      return `<div class="home-section"><div class="section-header"><h2>Teaching</h2><a href="/teaching" class="see-all">See all →</a></div><div class="item-list">${items.map(t => `
+      return `<div class="home-section"><div class="section-header"><h2>Teaching</h2><a href="${BASE}/teaching" class="see-all">See all →</a></div><div class="item-list">${items.map(t => `
         <div class="item-entry">
           <div><div class="item-title">${t.course || ''}</div><div class="item-sub">${[t.role, t.institution].filter(Boolean).join(' · ')}</div></div>
           <div class="item-year">${[t.semester, t.year].filter(Boolean).join(' ')}</div>
@@ -466,7 +470,7 @@ function projCard(p) {
   const linkedHtml = linkedPubs.length ? `
     <div class="proj-pubs">
       <div class="proj-pubs-label">Publications</div>
-      ${linkedPubs.map(pub => `<div class="proj-pub-item">· <a href="/publications">${pub.title}</a>${pub.venueShort ? ` <span class="proj-pub-venue">(${pub.venueShort})</span>` : ''}</div>`).join('')}
+      ${linkedPubs.map(pub => `<div class="proj-pub-item">· <a href="${BASE}/publications">${pub.title}</a>${pub.venueShort ? ` <span class="proj-pub-venue">(${pub.venueShort})</span>` : ''}</div>`).join('')}
     </div>` : '';
   return `
     <div class="project-card">
