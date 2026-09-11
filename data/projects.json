@@ -24,33 +24,46 @@
     "visible": true
   },
   {
-    "id": "proj002",
-    "title": "Deepfake Video Detection Using Deep Learning",
-    "description": "A multi-year research line on detecting AI-generated and manipulated video content. Spans a systematic survey of deepfake creation/detection methods, a CNN-based approach for short and low-resolution deepfake clips, and a hybrid deep learning architecture for identifying fake visual evidence in judicial/legal settings. Originated from undergraduate thesis work on deepfake detection using CNN and RCNN.",
-    "status": "completed",
-    "startDate": "2021",
-    "endDate": "2024",
-    "collaborators": [
-      { "name": "M. R. Karim" },
-      { "name": "M. A. Rahman" },
-      { "name": "P. Chowdhury" },
-      { "name": "A. Hossain" },
-      { "name": "R. Islam" }
+  "id": "proj002",
+  "title": "Deepfake Video Detection Using Deep Learning",
+  "description": "A multi-year research line on detecting AI-generated and manipulated video content. Spans a systematic survey of deepfake creation/detection methods, a CNN-based approach for short and low-resolution deepfake clips, and a hybrid deep learning architecture for identifying fake visual evidence in judicial/legal settings. Originated from undergraduate thesis work on deepfake detection using CNN and RCNN.",
+  "status": "completed",
+  "startDate": "2021",
+  "endDate": "2024",
+  "collaborators": [
+    { "name": "M. R. Karim" },
+    { "name": "M. A. Rahman" },
+    { "name": "P. Chowdhury" },
+    { "name": "A. Hossain" },
+    { "name": "R. Islam" }
+  ],
+  "funding": "",
+  "links": {
+    "papers": [
+      {
+        "title": "A Qualitative Survey on Deep Learning-Based Deepfake Video Creation and Detection Method",
+        "url": ""
+      },
+      {
+        "title": "Short and Low Resolution Deepfake Video Detection Using CNN",
+        "url": "https://doi.org/10.1109/R10-HTC54060.2022.9929719"
+      },
+      {
+        "title": "DeepJurist: A Hybrid Deep Learning Architecture for Detecting Fake Visual Evidence in Judicial Systems",
+        "url": "https://doi.org/10.1109/ICCIT64611.2024.11022369"
+      }
     ],
-    "funding": "",
-    "links": {
-      "paper": "https://doi.org/10.1109/R10-HTC54060.2022.9929719",
-      "code": "",
-      "demo": "",
-      "website": "",
-      "video": ""
-    },
-    "thumbnail": "",
-    "tags": ["Deepfake Detection", "CNN", "RCNN", "Computer Vision", "Digital Forensics"],
-    "publicationIds": ["pub_deepfake_survey_2022", "pub_deepfake_shortlowres_2022", "pub_deepjurist_2024"],
-    "featured": true,
-    "visible": true
+    "code": "",
+    "demo": "",
+    "website": "",
+    "video": ""
   },
+  "thumbnail": "",
+  "tags": ["Deepfake Detection", "CNN", "RCNN", "Computer Vision", "Digital Forensics"],
+  "publicationIds": ["pub_deepfake_survey_2022", "pub_deepfake_shortlowres_2022", "pub_deepjurist_2024"],
+  "featured": true,
+  "visible": true
+},
   {
     "id": "proj003",
     "title": "Water Quality Prediction and Monitoring Using AI",
